@@ -1,62 +1,16 @@
-public class BannerAppUC5 {
-
+public class OOPSBannerApp {
     public static void main(String[] args) {
-
-        String[] banner = {
-
-                String.join(" ",
-                        "  *****  ",
-                        "  *****  ",
-                        " ******* ",
-                        " ******* "
-                ),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        " *     * ",
-                        " *     * "
-                ),
-
-                String.join(" ",
-                        "*       *",
-                        "*       *",
-                        "*       *",
-                        "*        "
-                ),
-
-                String.join(" ",
-                        "*       *",
-                        "*       *",
-                        " ******* ",
-                        "  *****  "
-                ),
-
-                String.join(" ",
-                        "*       *",
-                        "*       *",
-                        "*        ",
-                        "        *"
-                ),
-
-                String.join(" ",
-                        " *     * ",
-                        " *     * ",
-                        "*        ",
-                        " *     * "
-                ),
-
-                String.join(" ",
-                        "  *****  ",
-                        "  *****  ",
-                        "*        ",
-                        "  *****  "
-                )
+        String[] lines = {
+        String.join(" ", " ***  ", " ***  ", " ***** ", " ***** "),
+        String.join(" ", "*   * ", "*   * ", "*   * ", "*     "),
+        String.join(" ", "*   * ", "*   * ", "*   * ", "*     "),
+        String.join(" ", "*   * ", "*   * ", "***** ", " ***  "),
+        String.join(" ", "*   * ", "*   * ", "*     ", "    * "),
+        String.join(" ", "*   * ", "*   * ", "*     ", "*   * "),
+        String.join(" ", " ***  ", " ***  ", "*     ", " ***  "),
         };
-
-        // Enhanced For Loop
-        for (String line : banner) {
+        for (String line : lines) {
             System.out.println(line);
         }
-    }
+}
 }
