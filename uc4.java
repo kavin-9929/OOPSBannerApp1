@@ -1,52 +1,18 @@
-public class OOPSBannerAppUC4 {
+public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        String[] banner = new String[7];
+        String[] lines = new String[7];
 
-        banner[0] = String.join("   ",
-                "  *****  ",
-                "  *****  ",
-                "  ****** ",
-                "  *****  ");
+        lines[0] = " *****   *****   ******   ****** ";
+        lines[1] = "*     * *     *  *     * *      ";
+        lines[2] = "*     * *     *  *     * *      ";
+        lines[3] = "*     * *     *  ******   ***** ";
+        lines[4] = "*     * *     *  *            * ";
+        lines[5] = "*     * *     *  *            * ";
+        lines[6] = " *****   *****   *       ****** ";
 
-        banner[1] = String.join("   ",
-                " **   ** ",
-                " **   ** ",
-                " **    **",
-                " **   ** ");
-
-        banner[2] = String.join("   ",
-                "**     **",
-                "**     **",
-                "**    ** ",
-                "**       ");
-
-        banner[3] = String.join("   ",
-                "**     **",
-                "**     **",
-                " ******  ",
-                "  *****  ");
-
-        banner[4] = String.join("   ",
-                "**     **",
-                "**     **",
-                "**       ",
-                "       **");
-
-        banner[5] = String.join("   ",
-                " **   ** ",
-                " **   ** ",
-                " **      ",
-                " **   ** ");
-
-        banner[6] = String.join("   ",
-                "  *****  ",
-                "  *****  ",
-                "  **      ",
-                "  *****  ");
-
-        for (String line : banner) {
+        for (String line : lines) {
             System.out.println(line);
         }
     }
